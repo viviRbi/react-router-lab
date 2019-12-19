@@ -30,7 +30,10 @@ You will be building out a website listing all of the National Parks.
 
 [Click here for the Adobe XD mock](https://drive.google.com/file/d/1DJS8ysB1N9Kp89_V_loagQiFNU_4jZoN/view?usp=sharing)
 
+Each park should have a detail view that looks like this:
 ![Detail view](./detail-view.png)
+
+There should be a home page that links to each detail view that looks like so:
 ![Detail view](./list-view.png)
 
 ### Part I: [React Router](part-i.md)
