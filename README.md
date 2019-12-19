@@ -30,6 +30,9 @@ You will be building out a website listing all of the National Parks.
 
 [Click here for the Adobe XD mock](https://drive.google.com/file/d/1DJS8ysB1N9Kp89_V_loagQiFNU_4jZoN/view?usp=sharing)
 
+![Detail view](./detail-view.png)
+![Detail view](./list-view.png)
+
 ### Part I: [React Router](part-i.md)
 
 Start by building out the app using React, React Router, and the static data
