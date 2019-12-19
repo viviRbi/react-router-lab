@@ -1,0 +1,12 @@
+.eachImage{
+  margin: 10px 10px;
+  padding: 3px 3px;
+  width: 25vmin;
+  height: 30vmin;
+  text-align: center;
+  display: inline-block;
+  background: grey;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
