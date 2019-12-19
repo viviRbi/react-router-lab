@@ -1,0 +1,7 @@
+.eachImage{
+  display: inline-block;
+  margin: 10px 10px;
+  background: grey;
+  width: 30vmin;
+  height: 35vmin;
+}
