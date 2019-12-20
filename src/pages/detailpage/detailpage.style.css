@@ -1,0 +1,22 @@
+.all{
+  margin: 30vh 5vw 50vh 5vw;
+}
+.cover-pic{
+  color: white;
+  padding: 2vh 3vw;
+  text-align:center;
+  position: relative;
+  height: 35vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cover-pic article{
+  background: black;
+  opacity: 0.5;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  top: 60%;
+}
