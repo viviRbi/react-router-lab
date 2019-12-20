@@ -1,11 +1,17 @@
 import React from "react"
-import { withRouter } from "react-router-dom";
 import "./menu.style.css"
+import { Link } from "react-router-dom"
 
-const Menu = ({ name, images, history, match }) => (
-  <section className="eachImage" style={{ backgroundImage: `url(${images[0].url})` }} onClick={() => history.push(`${match.url}${name}`)}>
-    <h3 className="image-name">{name}</h3>
-  </section>
+const Menu = ({ name, images, parkCode }) => (
+  <div>
+    <Link to={"/detail/" + parkCode} onClick={(e) => console.log(e.target)}>
+      <section className="eachImage" style={{ backgroundImage: `url(${images[0].url})` }} >
+        <h3 className="image-name">{name}</h3>
+      </section>
+    </Link>:{" "}
+  </div >
 )
 
-export default withRouter(Menu)
+// onClick={() => history.push(`${match.url}${name}`)} export default "withRouter"
+
+export default Menu

@@ -1,0 +1,66 @@
+{
+  "contacts": {
+    "phoneNumbers": [
+      {
+        "phoneNumber": "706-823-0440 / 1-888-659-8926",
+        "description": "",
+        "extension": "",
+        "type": "Voice"
+      },
+      {
+        "phoneNumber": "706-823-1045",
+        "description": "",
+        "extension": "",
+        "type": "Fax"
+      }
+    ],
+    "emailAddresses": [
+      {
+        "description": "",
+        "emailAddress": "mharrison@augustacanal.com"
+      }
+    ]
+  },
+  "states": "GA",
+  "directionsInfo": "To Augusta Canal Discovery Center (1450 Greene Street, Augusta, GA  30901):\nFrom I-20 Exit 200, turn left onto GA-104/Riverwatch Parkway (signs for Downtown Augusta). In approximately 4.5 miles, use the right lane to take the ramp to Downtown Augusta/Medical District. Continue straight onto Greene Street. Continue for approximately 0.4 miles. Enterprise Mill and the Discovery Center will be on your right.",
+  "directionsUrl": "http://augustacanal.com/directions.php",
+  "url": "https://www.nps.gov/auca/index.htm",
+  "weatherInfo": "The weather varies throughout the year and even throughout the day. Please check the National Weather Service information at http://www.weather.gov for forecast information.",
+  "name": "Augusta Canal",
+  "latLong": "lat:33.5099067687988, long:-82.0053787231445",
+  "description": "The Augusta Canal helped usher the Industrial Revolution into the American South. Built in 1845 as a source of power, water, and transportation, the canal today is the only fully intact American industrial canal in continuous operation. By 1847 the first mills opened, followed by the massive Civil War era Confederate Powder Works and many more industries in the later decades of the 19th century.",
+  "images": [
+    {
+      "credit": "NPS Photo",
+      "altText": "Petersburg Boat passes Sibley Mill and the chimney of Confederate States Powder Works along the Augu",
+      "title": "Petersburg Boat",
+      "id": "4740",
+      "caption": "Petersburg Boat passes Sibley Mill and the chimney of Confederate States Powder Works along the Augusta Canal National Heritage Area",
+      "url": "https://www.nps.gov/common/uploads/structured_data/17CB88D7-1DD8-B71B-0B176D86D21968E8.png"
+    }
+  ],
+  "designation": "National Heritage Area",
+  "parkCode": "auca",
+  "addresses": [
+    {
+      "postalCode": "30901",
+      "city": "Augusta",
+      "stateCode": "GA",
+      "line1": "Augusta Canal National Heritage Area",
+      "type": "Physical",
+      "line3": "",
+      "line2": "1450 Greene Street, Suite 400"
+    },
+    {
+      "postalCode": "30901",
+      "city": "Augusta",
+      "stateCode": "GA",
+      "line1": "Augusta Canal National Heritage Area",
+      "type": "Mailing",
+      "line3": "",
+      "line2": "1450 Greene Street, Suite 400"
+    }
+  ],
+  "id": "813548D1-F8EA-4C07-8878-17FB3C385378",
+  "fullName": "Augusta Canal National Heritage Area"
+}

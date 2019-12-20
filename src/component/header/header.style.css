@@ -1,0 +1,18 @@
+.header{
+  display: flex;
+  margin: 2vh 2vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 8vw;
+  height: 13vh;
+  display: inline-block;
+}
+h1{
+  display: inline-block;
+  margin: 3vh 10vw;
+}
+h3{
+  display: inline-block;
+}

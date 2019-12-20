@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Menu from "../menu/menu.component"
 import listOfPark from "../../data/parks.json";
 import "./directory.style.css"
+
 class Directory extends Component {
   constructor() {
     super();
