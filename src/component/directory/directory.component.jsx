@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Menu from "../menu/menu.component"
 import listOfPark from "../../data/parks.json";
 import "./directory.style.css"
-
 class Directory extends Component {
   constructor() {
     super();
@@ -13,8 +12,8 @@ class Directory extends Component {
     return (
       <div className="directory">
         {
-          this.state.sections.map(section => (
-            <Menu key={section.id} name={section.name} image={section.images[0].url} />
+          this.state.sections.map(({ id, ...otherSectionProps }) => (
+            <Menu key={id} {...otherSectionProps} />
           ))}
       </div>
     )

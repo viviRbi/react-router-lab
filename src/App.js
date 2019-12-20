@@ -1,27 +1,25 @@
-import React, { Component } from 'react';
-import HomePage from "./pages/homepage/homepage.component"
-import { Router, Link } from "react-router-dom"
+import React from 'react';
+import HomePage from "./pages/homepage/homepage.component";
+import { Switch, Route } from "react-router-dom";
 import './App.css';
 
-class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-      name: this.name
-    }
-  }
+const FirstPage = () => (
+  <h1>Hat Page</h1>
+)
 
-  render() {
-    return (
-      <div>
+function App() {
+  return (
+    <div>
 
-        <nav>
-          <h1>National Park List</h1>
-        </nav>
-        <HomePage />
-      </div>
-    );
-  }
+      <nav>
+        <h1>National Park List</h1>
+      </nav>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/first" component={FirstPage} />
+      </Switch>
+    </div>
+  );
 }
 
 export default App;
